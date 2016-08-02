@@ -1,0 +1,20 @@
+{
+  "name": "Front-end-SMACSS-kit",
+  "description": "Vendors needed for site",
+  "main": "",
+  "authors": [
+    "Chad Jordan Hilis <chilis@apdgroup.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "foundation-sites": "^6.2.3"
+  }
+}

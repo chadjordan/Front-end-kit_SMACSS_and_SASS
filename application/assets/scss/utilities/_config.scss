@@ -1,0 +1,33 @@
+// $zindex
+//
+// Define z-indexes for various elements
+//
+// $zindex - {map}
+// @source - http://www.sitepoint.com/using-sass-maps/
+
+$zindex: (
+  top-index:                  9000,
+  sixth-index:                8000,
+  fifth-index:                7000,
+  fourth-index:               6000,
+  third-index:                5000,
+  second-index:               4000,
+  default:                    1,
+  bottomless-index:           -10000
+);
+
+// $breakpoints
+//
+// Define major breakpoints
+// There are no common breakpoints; examples based on the official Sass styleguide
+// You'll need to define your own breakpoints to suit your design
+//
+// $breakpoints - {map}
+
+$breakpoints: (
+  xsmall:                     null,
+  small:                      767,
+  medium:                     768,
+  large:                      1024,
+  xlarge:                     1280,
+);
