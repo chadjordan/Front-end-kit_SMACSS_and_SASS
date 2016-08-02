@@ -1,6 +1,5 @@
-# Front-end_Kit
 
-
+# Front-end-kit_SMACSS_and_SASS
 Gulp.js - “Code over configuration” <br/>
         - It automates and enhances your workflow.<br/>
         - Tools you need:<br/>
@@ -17,8 +16,10 @@ Features:<br/>
   
 Integration to your project<br/>
   • Download and install Node.js in you machine. Visit https://nodejs.org/en/.<br/>
-  • Clone this repository https://github.com/chadjordan/Front-end_Kit.git.<br/>
+  • Clone this repository https://github.com/chadjordan/Front-end-kit_SMACSS_and_SASS<br/>
+  • Install bower and install bower compoments<br/>
   • Install Gulp globally by npm install –g gulp<br/>
   • Lastly install dependencies used by npm install –verbose<br/>
   • Then you can start your first project.<br/>
   • For the build files. Run gulp prod<br/>
+
