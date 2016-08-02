@@ -92,8 +92,28 @@ gulp.task('jscompress', function() {
 gulp.task('vendorScripts', function() {
   return gulp.src([
     'bower_components/jquery/dist/*.min.js',
-    'bower_components/foundation-sites/dist/*.min.js',
-    'bower_components/what-input/what-input.js'
+    'bower_components/what-input/what-input.js',
+    'bower_components/foundation-sites/dist/plugins/foundation.core.js',
+    'bower_components/foundation-sites/dist/plugins/foundation.util.*.js',
+    // 'bower_components/foundation-sites/dist/plugins/foundation.abide.js',
+    // 'bower_components/foundation-sites/dist/plugins/foundation.accordion.js',
+    // 'bower_components/foundation-sites/dist/plugins/foundation.accordionMenu.js',
+    // 'bower_components/foundation-sites/dist/plugins/foundation.drilldown.js',
+    'bower_components/foundation-sites/dist/plugins/foundation.dropdown.js',
+    'bower_components/foundation-sites/dist/plugins/foundation.dropdownMenu.js',
+    // 'bower_components/foundation-sites/dist/plugins/foundation.equalizer.js',
+    // 'bower_components/foundation-sites/dist/plugins/foundation.interchange.js',
+    // 'bower_components/foundation-sites/dist/plugins/foundation.magellan.js',
+    // 'bower_components/foundation-sites/dist/plugins/foundation.offcanvas.js',
+    // 'bower_components/foundation-sites/dist/plugins/foundation.orbit.js',
+    // 'bower_components/foundation-sites/dist/plugins/foundation.responsiveMenu.js',
+    // 'bower_components/foundation-sites/dist/plugins/foundation.responsiveToggle.js',
+    // 'bower_components/foundation-sites/dist/plugins/foundation.reveal.js',
+    // 'bower_components/foundation-sites/dist/plugins/foundation.slider.js',
+    // 'bower_components/foundation-sites/dist/plugins/foundation.sticky.js',
+    // 'bower_components/foundation-sites/dist/plugins/foundation.tabs.js',
+    // 'bower_components/foundation-sites/dist/plugins/foundation.toggler.js',
+    // 'bower_components/foundation-sites/dist/plugins/foundation.tooltip.js'
     ])
   .pipe(vendor('vendor.js'))
   .pipe(gulp.dest('./application/assets/js/vendors-js/'))
