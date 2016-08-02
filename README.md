@@ -16,11 +16,13 @@
   • Create build files for production.<br/>
   
 ##Integration to your project<br/>
-  • Download and install Node.js in you machine. Visit `[https://nodejs.org/en/](https://nodejs.org/en/)`<br/>
-  • Clone this repository `[https://github.com/chadjordan/Front-end-kit_SMACSS_and_SASS](https://github.com/chadjordan/Front-end-kit_SMACSS_and_SASS)`<br/>
+  • Download and install Node.js in you machine. Visit [https://nodejs.org/en/](https://nodejs.org/en/) <br/>
+  • Clone this repository [https://github.com/chadjordan/Front-end-kit_SMACSS_and_SASS](https://github.com/chadjordan/Front-end-kit_SMACSS_and_SASS) <br/>
   • Install bower and install bower compoments<br/>
   • Install Gulp globally by `npm install –g gulp`<br/>
   • Lastly install dependencies used by `npm install –verbose`<br/>
   • Then you can start your first project `gulp`.<br/>
   • For the build files. Run `gulp prod`<br/>
+  
+  
 
